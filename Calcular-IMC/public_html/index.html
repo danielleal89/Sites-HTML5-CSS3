@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cálculo do IMC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script src="js/jquery-1.11.1.js"></script>        
+        <script src="js/funcoes.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+    </head>
+    <body>
+        <h1>Cálculo do índice de massa corpórea (IMC)</h1>
+        <hr>
+
+
+        <fieldset>
+            <legend>Cálculo do IMC</legend>
+            <form>
+                <p class="form"> <label form="nome"> Nome: </label>
+                    <input type="text" name="nome" size="50" id="nome"> <span id="avisoOk-nome"></span><span id="aviso-nome"></span>
+                </p>
+                <p> <label form="altura"> Altura: </label>
+                    <input type="text" name="altura" id="altura" size="3" dir="rtl"> <span id="avisoOk-altura"></span><span id="aviso-altura"></span>
+                </p>
+                <p> <label form="peso"> Peso: </label>
+                    <input type="text" name="peso" id="peso" size="3" dir="rtl"> <span id="avisoOk-peso"></span><span id="aviso-peso"></span>
+                </p>
+                <p>
+                <p class="sexo"> Sexo:
+                    <label for="sexom">
+                        <input type="radio" name="sexo" id="sexom" value="m"> <span id="img-sexoM"></span><span id="aviso-sexoM"></span>
+                        Masculino
+                    </label>
+                    <label for="sexof">
+                        <input type="radio" name="sexo" id="sexof" value="f"> <span id="img-sexoF"></span><span id="aviso-sexoF"></span>
+                        Feminino
+                    </label>
+                </p>
+                <div id="result-imc" class="btn"></div>
+                <p>
+                    <button type="button" id="calcular" class="btn"> Calcular </button>
+                    <button type="button" id="limpar" class="btn"> Limpar </button>
+                </p>
+            </form>
+        </fieldset>
+
+        <div class="clear"></div>
+        <hr>
+        <button type="button" id="limparTudo" class="btn">Limpar Tudo</button>
+        <div class="listaNome">
+            <div class="quadro">
+                <div class="tabela">
+                    <button type="button" id="limparListaAbaixo" class="limpar btn">Limpar Lista Abaixo</button>
+                    <table id="lista-abaixo" class="table-striped">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Lista do IMC Abaixo do Peso</th>
+                            </tr>
+                            <tr>
+                                <th>IMC em Mulheres</th>
+                                <th>IMC em Homens</th>
+                            </tr>
+                            <tr>
+                                <th>&lt 19,1</th>
+                                <th>&lt 20,7</th>
+                            </tr>
+                        </thead>                        
+                    </table>
+                </div>
+                <div class="tabela">
+                    <button type="button" id="limparListaNormal" class="limpar btn">Limpar Lista Abaixo</button>
+                    <table id="lista-normal" class="table-striped">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Lista do IMC Peso Normal</th>
+                            </tr>
+                            <tr>
+                                <th>IMC em Mulheres</th>
+                                <th>IMC em Homens</th>
+                            </tr>
+                            <tr>
+                                <th>19,1 - 25,8</th>
+                                <th>20,7 - 26,4</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="tabela">
+                    <button type="button" id="limparListaMargAbaixo" class="limpar btn">Limpar Lista Abaixo</button>
+                    <table id="lista-margAcima" class="table-striped">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Lista do IMC Pouco Acima do Peso</th>
+                            </tr>
+                            <tr>
+                                <th>IMC em Mulheres</th>
+                                <th>IMC em Homens</th>
+                            </tr>
+                            <tr>
+                                <th>25,8 - 27,3</th>
+                                <th>26,4 - 27,8</th>
+                            </tr>
+                        </thead>                     
+                    </table>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="quadro">
+                <div class="tabela">
+                    <button type="button" id="limparListaAcima" class="limpar btn">Limpar Lista Abaixo</button>
+                    <table id="lista-acima" class="table-striped">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Lista do IMC Acima do Peso</th>
+                            </tr>
+                            <tr>
+                                <th>IMC em Mulheres</th>
+                                <th>IMC em Homens</th>
+                            </tr>
+                            <tr>
+                                <th>27,3 - 32,3</th>
+                                <th>27,8 - 31,1</th>
+                            </tr>
+                        </thead>                          
+                    </table>
+                </div>
+                <div class="tabela">
+                    <button type="button" id="limparListaObeso" class="limpar btn">Limpar Lista Abaixo</button>
+                    <table id="lista-obeso" class="table-striped">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Lista do IMC com Obesidade</th>
+                            </tr>
+                            <tr>
+                                <th>IMC em Mulheres</th>
+                                <th>IMC em Homens</th>
+                            </tr>
+                            <tr>
+                                <th>> 32,3</th>
+                                <th>> 31,1</th>
+                            </tr>
+                        </thead>                        
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pizzeria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="estilo.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href='http://fonts.googleapis.com/css?family=Maven+Pro:900,400' rel='stylesheet' type='text/css'>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="jquery.js"></script>
+        <script src="pizza.js"></script>
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="centro-header">
+
+            </div>
+        </div>
+        <div class="conteudo">
+            <div class="centro-conteudo">
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-7">
+                            <div class="titulo">Faça seu Pedido</div>
+
+                            <fieldset>
+                                <legend>Dados pessoais</legend>
+
+                                <div class="form-group">
+                                    <label for="nome">* Nome completo</label>
+                                    <input type="text" class="form-control" id="nome" name="nome">
+                                    <label for="telefone">* Telefone</label>
+                                    <input type="tel" class="form-control" id="telefone" name="telefone">  
+                                    <label for="endereco">* Endereco</label>
+                                    <input type="text" class="form-control" id="endereco" name="endereco">
+
+                                    <label for="nome">Sabor da Pizza</label>
+                                    <select id="sabor" class="form-control">
+                                        <option>SELECIONAR</option>
+                                        <option>CALABRESA COM CEBOLA </option>
+                                        <option>CAPRICCIOSA </option>
+                                        <option>ITALIANA</option>
+                                        <option>5 QUEIJOS </option>
+                                        <option>MEXICANA </option>
+                                    </select>
+
+                                    <label for="nome">Informacoes Adicionais(Opcional)</label>
+                                    <textarea class="form-control" rows="3"></textarea>
+
+                                    <br>
+                                    <button type="button" class="btn btn-success" id="btIncluir">Efetuar Pedido</button>
+                                    <button type="button" class="btn btn-danger" id="btLimpar">Cancelar</button>
+                                    <br>
+                                    <br>
+                                    <div id="aviso"></div>
+
+
+
+                                </div>
+                            </fieldset>
+
+                        </div>
+                        <div class="col-md-5">
+
+
+                            <div class="panel panel-default">
+                                <!-- Default panel contents -->
+                                <div class="panel-heading">Pedidos na Fila</div>
+                                <div class="panel-body">
+                                <!-- Table -->
+                                <table class="table">
+                                    <tr>
+                                        <td>NOME:</td>
+                                        <td>SABOR DA PIZZA:</td>
+                                    </tr>
+                                </table>
+                                  <button type="button" class="btn btn-block" id="btLimparPedidos">Limpar Lista</button>
+                                </div>
+
+
+
+                               
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <div class="centro-footer">
+
+            </div>
+        </div>
+    </body>
+</html>

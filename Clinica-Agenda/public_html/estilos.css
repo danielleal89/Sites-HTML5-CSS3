@@ -1,0 +1,238 @@
+.divText{
+    position: absolute;
+    top: 870px;
+    width: 150px;
+    height: 28px;
+    color: black;
+    text-align: center;
+    line-height: 160%;
+    left: 50px;
+}
+
+.divContato1{
+    position: absolute;
+    background-color: #F3F3F2;
+    top: 308px;
+    width: 367px;
+    color: black;
+    text-align: left;
+    font-style: oblique;
+    line-height: 180%;
+    left: 324px;
+}
+
+.cadastro{
+    width: 325px;
+    height: 198px;
+    float: right;
+    top: 304px;
+    background-color: aliceblue;
+    color: blue;
+    position: absolute;
+    left: 800px;
+    line-height: 102%;
+    text-align: left;
+}
+
+body {
+    background-color: white;
+}
+
+.divLogo{
+    position: absolute;
+    top: -10px;
+    width: 500px;
+    left: 280px;
+}
+
+.divData{
+    position: absolute;
+    left: 690px;
+    top: -5px;
+}
+
+#preenche{
+
+    position: absolute;
+    top: 695px;
+    left: 490px;
+    width: 480px;    
+    height: 58px;
+    text-align:center;
+    line-height: 55px;
+    color: white;
+    font-weight: bold;
+    display: none;
+    -moz-border-radius: 8px; 
+    -webkit-border-radius: 8px; 
+    -goog-ms-border-radius: 8px; 
+    border-radius: 10px;
+    background-position: right top;
+    background-repeat: no-repeat; 
+
+}
+.divDescri1{
+    position: absolute;
+    top: 290px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    left: 645px;
+}
+
+.divDescri2{
+    position: absolute;
+    top: 570px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    left: 240px;
+}
+
+.divDescri3{
+    position: absolute;
+    top: 840px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    left: 640px;
+}
+.divFoto1{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+
+.divFoto2{
+    position: absolute;
+    left: 690px;
+    top: 520px;
+}
+
+.divFoto3{
+    position: absolute;
+    left: 300px;
+    top: 790px;
+}
+.divBalao{
+    position: absolute;
+    left: 280px;
+    top: 230px;
+}
+.divCopiInicio{
+    position: absolute;
+    top: 1070px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    left: 440px;
+}
+
+.divCartao{
+    position: absolute;
+    left: 55px;
+    top: 950px;
+}
+
+.divFone{
+    position: absolute;
+    left: 1170px;
+    top: 910px;
+}
+
+.divCopiAgenda{
+    position: absolute;
+    top: 770px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    left: 440px;
+}
+
+.divCartaoAgenda{
+    position: absolute;
+    left: 55px;
+    top: 650px;
+}
+
+.divFoneAgenda{
+    position: absolute;
+    left: 1190px;
+    top: 600px;
+}
+
+.divCopiDepoimento{
+    position: absolute;
+    top: 780px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    left: 440px;
+}
+
+.divCopiConsulta{
+    position: absolute;
+    top: 670px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    left: 440px;
+}
+
+.divMenus{
+    width: 770px;
+    height: 50px;
+    margin-top: 200px;
+    background-color: white;
+    font-size: 35px;
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+    text-justify: auto;
+    margin-left: 300px;
+}
+
+.divBotao1{
+    position: absolute;
+    left: 450px;
+    top: 185px;
+}
+
+.divBotao2{
+    position: absolute;
+    left: 800px;
+    top: 185px;
+}
+
+.divRodape{
+    position: absolute;
+    left: 500px;
+    top: 920px;
+}
+
+.divContato{
+    position: absolute;
+    top: 290px;
+    width: 500px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 110%;
+    line-height: 270%;
+    left: 430px;
+}
+
+.divContato2{
+    position: absolute;
+    background-color: #F3F3F2;
+    top: 280px;
+    width: 815px;
+    color: black;
+    text-align: left;
+    font-style: oblique;
+    line-height: 180%;
+    left: 324px;
+}

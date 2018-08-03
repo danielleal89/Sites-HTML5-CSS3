@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Clinica Pró-Saúde</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <script src="jquery.js"></script>
+        <script src="funcao.js"></script>
+
+    </head>
+    <body>
+
+        <div class="divLogo">
+            <img src="img/logo.jpg" alt="Logo" width="850" height="210"/>
+        </div>        
+
+        <div class="divMenus"> </div>
+
+        <div class="divData">
+            <p id="data"> </p>
+        </div>
+
+        <div class="divContato2">
+            <fieldset>
+                <legend>Os campos com "*" são Obrigatorios</legend>
+         
+                <form>
+                    <p><label for="nome"> Nome: *</label>
+                        <input type="text" name="nome" cols="5" minlength="5" placeholder="Digite seu nome..." size="29" id="nome"/>
+
+                    <p><label for="cpf"> CPF: *</label>
+                        <input type="text" name="cpf" cols="11" maxlength="11" placeholder="Digite seu cpf..." size="30" id="cpf"/>
+                    </p>
+
+                    <label for="diai">Data de Nasc.: 
+                        <input type="number" name="diai" placeholder="  dia" size="1" id="diai"/>
+                    </label>
+                        <label for="mesi"> 
+                            <input type="number" name="mesi" placeholder=" mês" size="1" id="mesi"/>
+                        </label>
+                            <label for="anoi">
+                                <input type="number" name="anoi" placeholder="  ano" size="2" id="anoi"/>
+                        </label>
+                    
+                    <p><label for="email"> E-mail: </label>
+                        <input type="text" name="email" placeholder="Digite seu e-mail..." size="30" id="email"/>
+                    </p>
+                    
+                    <p> Consulta:
+                        <select id="j" name="j">
+                            <option value="Clinico Geral">Clinico Geral</option>
+                            <option value="Odontologista">Odontologista</option>
+                            <option value="Oftalmologista">Oftalmologista</option>
+                            <option value="Dermatologista">Dermatologista</option>
+                        </select>
+                    </p>
+                    
+                    <label for="dia">Data da Consulta: *
+                        <input type="number" name="dia" placeholder="  dia" size="1" id="dia"/>
+                    </label>
+                        <label for="mes"> 
+                            <input type="number" name="mes" placeholder=" mês" size="1" id="mes"/>
+                        </label>
+                            <label for="ano">
+                                <input type="number" name="ano" placeholder="  ano" size="2" id="ano"/>
+                        </label>
+                            
+
+                    <p>
+                    <label for="hora">Hora da Consulta: *
+                        <input type="number" name="hora" placeholder="  08" size="1" id="hora"/>
+                    </label>
+                        <a>:</a>
+                        <label for="minuto"> 
+                            <input type="number" name="minuto" placeholder="  00" size="1" id="minuto"/>
+                        </label>
+                    </p>
+                    
+
+                    <p> <button type="button" id="enviar">Enviar</button>
+                        <button type="reset" value="limpar" id="limpar"/>Limpar</button>
+                        <button type="button" id="btLimpar">Limpar Consultas</button>
+                    </p>
+                </form>
+
+            </fieldset>
+        </div>
+
+        <div class="cadastro">
+            <h4>Consultas Marcadas</h4>
+            <div id="lista"> 
+                <table></table>
+            </div>
+        </div>
+        <div id="preenche"></div>
+
+
+        <div class="divBotao1">
+            <p> <a href="Inicio.html"> <img src="img/botao1.png" alt="início" width="176" height="39"/></a> </p>
+        </div>
+
+        <div class="divBotao2">
+            <p> <a href="Agenda.html"> <img src="img/botao2.png" alt="Agenda" width="176" height="39"/></a> </p>
+        </div>
+
+        <div class="divCartaoAgenda">
+            <p> <img src="img/cartao.jpg" alt="Formas de Pagamento" width="170" height="100"/> </p>
+        </div>
+
+        <div class="divFoneAgenda">
+            <p> <img src="img/foto12.jpg" alt="clinica" width="170" height="150"/> </p>
+        </div>
+
+
+        <div class="divCopiAgenda">
+            <a>Todos os direitos reservados © 2017</a>
+        </div>
+    </body>
+</html>

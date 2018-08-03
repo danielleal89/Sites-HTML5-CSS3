@@ -1,0 +1,83 @@
+#lateral{
+    position: absolute;
+    background-color: white;
+    float: left;
+    width: 220px;
+    height: 320px;
+    border-radius: 7px;
+    margin-left: 10px;
+
+}
+#lateral2{
+    display: none;
+    position: absolute;
+    background-color: white;
+    float: left;
+    width: 220px;
+    height: 320px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 330px;
+
+}
+#centro{
+
+    background-color: #E8E8E8;
+    border-color: black;
+    margin-left: 250px;
+    width: 1100px;
+    height: 650px;
+    border-radius: 7px;
+}
+#infCliente{
+    margin: 15px;
+}
+#infMaquina{
+    margin: 15px;
+
+
+}
+#tabela{
+    height: 400px;
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+body{
+    background-color: darkgray;
+}
+.pcAux1{
+    float: left;
+    background-color : #32CD32;
+    width: 120px;
+    height: 80px;
+    border-radius : 2px;
+    margin-left: 120px;
+    margin-top : 180px;
+    font-size: 24px;
+
+
+}
+.pcAux2{
+    float: left;
+    background-color : #32CD32;
+    width: 120px;
+    height: 80px;
+    border-radius : 2px;
+    margin-left: 120px;
+    margin-top : 30px;
+    font-size: 24px;
+
+
+}
+
+.pc{
+    text-align: center;
+    color: white;
+    margin-top: 28px;
+    margin-left: 32px;
+    width: 50px;
+    height: 30px;
+
+    background-color: black;
+}
